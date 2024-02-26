@@ -4,10 +4,11 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.time.Period;
 
-@Getter @Setter
-@NoArgsConstructor @AllArgsConstructor
+@Setter
 @Entity
+@NoArgsConstructor @AllArgsConstructor
 @Table
 public class Student {
   //
@@ -21,19 +22,32 @@ public class Student {
           strategy = GenerationType.SEQUENCE,
           generator = "student_sequence"
   )
+  @Getter
   private Long id;
+  @Getter
   private String name;
+  @Getter
   private String email;
+  @Getter
   private LocalDate birth;
-  private int age;
+  @Transient
+  private Integer age;
   //
-
-  public Student(String name, String email, LocalDate birth, int age) {
+  public Student(String name, String email, LocalDate birth) {
     this.name = name;
     this.email = email;
     this.birth = birth;
-    this.age = age;
   }
   //
+
+  public Integer getAge(){
+    //return (this.birth != null) ? Period.between(this.birth,LocalDate.now()).getYears() : 0;
+    return Period.between(this.birth,LocalDate.now()).getYears();
+  }
+
+  @Override
+  public String toString(){
+    return "Student{" + "id=" +id + ", name="+name + '\'' + ", birth= "+birth+ ", email=" +email +'\'' + '}';
+  }
 
 }
