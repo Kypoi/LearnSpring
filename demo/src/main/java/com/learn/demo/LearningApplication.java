@@ -16,7 +16,7 @@ public class LearningApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearningApplication.class, args);
-		System.out.print("hi");
+		System.out.print("hello there");
 	}
 
 }
