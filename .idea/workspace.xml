@@ -6,16 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a085358-7b18-481f-83b7-8870b0e810e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45/storage_v2/_src_/database/student.O4L-jw/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45/storage_v2/_src_/database/student.O4L-jw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45/storage_v2/_src_/database/student.O4L-jw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45/storage_v2/_src_/database/student.O4L-jw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45/storage_v2/_src_/database/student.O4L-jw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d63b7ef7-4688-4357-a715-ef2cde35fb45/storage_v2/_src_/database/student.O4L-jw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/Student/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/LearningApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/learn/demo/LearningApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,29 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/liqui/OneDrive/Documents/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/liqui/Documents/GitHub/LearnSpring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Spring Boot.LearningApplication">
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
@@ -97,6 +92,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,6 +111,7 @@
       <workItem from="1708900719767" duration="552000" />
       <workItem from="1708965573344" duration="4327000" />
       <workItem from="1708969914026" duration="6750000" />
+      <workItem from="1709990661708" duration="533000" />
     </task>
     <servers />
   </component>
